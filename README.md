@@ -1,5 +1,5 @@
 
-<h1 align="center"> 为梦想而创作：RXThinkCMF_TP5.1_PRO权限(RBAC)及内容管理框架</h1>
+<h1 align="center"> 为梦想而创作：RXThinkCMF_TP6_DEV权限(RBAC)及内容管理框架</h1>
 
 <p align="center">
 	<a href="http://www.rxthink.cn/">
@@ -8,26 +8,26 @@
 	<a href="https://www.layui.com/">
         <img src="https://img.shields.io/badge/layui-2.5.6-blue.svg" alt="layui">
     </a>
-	<a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO/stargazers'>
-	    <img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO/badge/star.svg?theme=dark' alt='star'></img>
+	<a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV/stargazers'>
+	    <img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV/badge/star.svg?theme=dark' alt='star'></img>
 	</a>
-	<a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO/members'>
-	    <img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO/badge/fork.svg?theme=dark' alt='fork'></img>
+	<a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV/members'>
+	    <img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV/badge/fork.svg?theme=dark' alt='fork'></img>
 	</a>
 </p>
 
 ### 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！
-### 如果您想获悉项目实时更新信息，您可以点右上角 <a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO'><img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO/widgets/widget_3.svg' alt='Fork me on Gitee'></img></a> 感谢您的支持！
+### 如果您想获悉项目实时更新信息，您可以点右上角 <a href='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV'><img src='https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV/widgets/widget_3.svg' alt='Fork me on Gitee'></img></a> 感谢您的支持！
 ### 官方网址：http://www.rxthink.cn/
-### 帮助文档：http://docs.pro6.rxthink.cn/
+### 帮助文档：http://docs.dev6.rxthink.cn/
 ### 本项目还在不断开发完善中,如有建议或问题请官方论坛反馈，论坛地址:http://www.rxthink.cn
 
 ## 项目介绍
-RXThinkCMF_TP6_PRO旗舰版 基于 ThinkPHP6 +Layui2.5.6 开发权限(RBAC)及内容管理框架，框架中集成了权限管理、模块管理、插件管理、钩子管理、数据库管理、富文本编辑器(已集成ueditor,kindeditor)，后台支持多主题切换、布局管理、广告管理、配置管理、字典管理、切图管理、CMS内容管理等常用功能模块，以方便开发者快速构建自己的应用。RXThinkCMF_TP5.1_PRO框架专注于为中小企业提供最佳的行业基础后台框架解决方案，执行效率、扩展性、稳定性值得信赖，操作体验流畅，使用非常优化，欢迎大家使用及进行二次开发。
+RXThinkCMF_TP6_DEV旗舰版 基于 ThinkPHP6 +Layui2.5.6 开发权限(RBAC)及内容管理框架，框架中集成了权限管理、模块管理、插件管理、钩子管理、数据库管理、富文本编辑器(已集成ueditor,kindeditor)，后台支持多主题切换、布局管理、广告管理、配置管理、字典管理、切图管理、CMS内容管理等常用功能模块，以方便开发者快速构建自己的应用。RXThinkCMF_TP6_DEV框架专注于为中小企业提供最佳的行业基础后台框架解决方案，执行效率、扩展性、稳定性值得信赖，操作体验流畅，使用非常优化，欢迎大家使用及进行二次开发。
 
 * 模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。
 * 模型/栏目/分类信息体系：通过栏目和模型绑定，以及不同的模型类型，不同栏目可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。通过分类信息和栏目绑定，可以自动建立索引表，轻松实现复杂的信息检索。
-* RXThinkCMF_TP5.1_PRO是一套基于ThinkPHP + Layui开发出来的框架。
+* RXThinkCMF_TP6_DEV是一套基于ThinkPHP + Layui开发出来的框架。
 * 支持SQLServer、MySQL、Oracle、PostgreSQL、SQLite等多数据库类型。模块化设计，层次结构清晰。  
 * AUTH权限认证，操作权限控制精密细致，对所有管理链接都进行权限验证，可控制到导航菜单、功能按钮。提高开发效率及质量。
 * 常用类封装，日志、缓存、验证、字典、文件（本地、七牛云）。等等，目前兼容浏览器（Chrome、Firefox、360浏览器等）
@@ -55,24 +55,24 @@ RXThinkCMF_TP6_PRO旗舰版 基于 ThinkPHP6 +Layui2.5.6 开发权限(RBAC)及�
 
 
 ## 开发者信息
-* 系统名称：RXThinkCMF_TP6_PRO权限(RBAC)及内容管理框架  
+* 系统名称：RXThinkCMF_TP6_DEV权限(RBAC)及内容管理框架  
 * 作者[牧羊人]：南京RXThink研发工作室
 * 作者QQ：1175401194  
 * 官网网址：[http://www.rxthink.cn/](http://www.rxthink.cn/)  
-* 文档网址：[http://docs.pro6.rxthink.cn/](http://docs.pro6.rxthink.cn/)  
+* 文档网址：[http://docs.dev6.rxthink.cn/](http://docs.dev6.rxthink.cn/)  
 * 开源协议：Apache 2.0
 
 ### RXThinkCMF版本说明
 
 | 版本名称 | 说明 | 地址 |
 | :---: | :---: | :---: |
-| RXThinkCMF_TP6旗舰版 | 最新开源版本，master分支 | https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_PRO |
+| RXThinkCMF_TP6旗舰版 | 最新开源版本，master分支 | https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6_DEV |
 | RXThinkCMF_TP6专业版 | 最新开源版本，master分支 | https://gitee.com/ruoxi520_admin/RXThinkCMF_TP6 |
 
 
 ## 后台演示（用户名:admin 密码:admin123）
 
-- RXThinkCMF_TP5.1_PRO版本：[http://manage.pro6.rxthink.cn/](http://manage.pro6.rxthink.cn/)
+- RXThinkCMF_TP6_DEV版本：[http://manage.dev6.rxthink.cn/](http://manage.dev6.rxthink.cn/)
 
 
 ## 技术支持
@@ -136,7 +136,7 @@ RXThinkCMF_TP6_PRO旗舰版 基于 ThinkPHP6 +Layui2.5.6 开发权限(RBAC)及�
 
 ## 版权信息
 
-RXThinkCMF_TP6_PRO提供个人非商业用途免费使用，商业需授权。
+RXThinkCMF_TP6_DEV提供个人非商业用途免费使用，商业需授权。
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
