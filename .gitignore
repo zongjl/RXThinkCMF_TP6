@@ -1,5 +1,13 @@
 /.idea
 /.vscode
+/.svn
 /vendor
 *.log
 .env
+node_modules
+dist
+src
+install.lock
+package.json
+package-lock.json
+webpack.config.js
