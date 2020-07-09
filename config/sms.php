@@ -9,29 +9,16 @@
 // | Author: 牧羊人 <1175401194@qq.com>
 // +----------------------------------------------------------------------
 
-namespace app\admin\service;
-
-
-use app\admin\model\AdSort;
-use app\common\service\BaseService;
-
 /**
- * 广告位管理-服务类
- * @author 牧羊人
- * @since 2020/7/2
- * Class AdSortService
- * @package app\admin\service
+ * 短信配置类
  */
-class AdSortService extends BaseService
-{
-    /**
-     * 构造函数
-     * @author 牧羊人
-     * @since 2020/7/2
-     * AdSortService constructor.
-     */
-    public function __construct()
-    {
-        $this->model = new AdSort();
-    }
-}
+return [
+    // 阿里云短信
+    'aliyunsms' => [
+        'accessKeyId' => '',
+        'accessKeySecret' => '',
+        'signName' => '',
+        'templateCode' => '',
+        'templateParam' => '',
+    ],
+];
