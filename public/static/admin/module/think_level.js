@@ -28,7 +28,7 @@ layui.use(['function'], function () {
         //【设置弹框】
         func.setWin("职级", 500, 300);
 
-        //【设置人员状态】
+        //【设置状态】
         func.formSwitch('status', null, function (data, res) {
             console.log("开关回调成功");
         });
