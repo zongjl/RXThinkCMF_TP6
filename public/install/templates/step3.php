@@ -47,7 +47,7 @@
           </tr>
           <tr>
             <td class="tar">数据库名：</td>
-            <td><input type="text" name="dbname" id="dbname" value="rxthink.pro6" class="input" onBlur="TestDbPwd(0)"></td>
+            <td><input type="text" name="dbname" id="dbname" value="rxthink.dev6" class="input" onBlur="TestDbPwd(0)"></td>
             <td><div id="J_install_tip_dbname"></div></td>
           </tr>
           <tr>
