@@ -48,6 +48,46 @@ class MenuService extends BaseService
         if (!$result) {
             return message("操作失败", false);
         }
+
+        // 上级菜单设置隐藏和显示，默认同步更新子级菜单
+        $menuList = $this->model->getChilds($result, true);
+        foreach ($menuList as $val) {
+            // 设置状态值
+            $menuMod = new Menu();
+            $v = [
+                'id' => $val['id'],
+                'status' => $data['status'],
+                'is_public' => $data['is_public'],
+            ];
+            $menuMod->edit($v);
+
+            // 获取子级
+            $children = $val['children'];
+            if (is_array($children) && !empty($children)) {
+                foreach ($children as $vt) {
+                    $item = [
+                        'id' => $vt['id'],
+                        'status' => $data['status'],
+                        'is_public' => $data['is_public'],
+                    ];
+                    $menuMod = new Menu();
+                    $menuMod->edit($item);
+
+                    // 更新子级菜单
+                    $children2 = $vt['children'];
+                    foreach ($children2 as $vo) {
+                        $subItem = [
+                            'id' => $vo['id'],
+                            'status' => $data['status'],
+                            'is_public' => $data['is_public'],
+                        ];
+                        $menuMod = new Menu();
+                        $menuMod->edit($subItem);
+                    }
+                }
+            }
+        }
+
         // 节点参数
         $func = isset($data['func']) ? $data['func'] : "";
         // URL地址
